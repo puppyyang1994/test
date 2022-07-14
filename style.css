@@ -1,0 +1,21 @@
+/* @import 用于从其他样式表导入样式规则。 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+   font-size:'Roboto', sans-serif;
+   display: flex;
+    /* 纵向排列 */
+   flex-direction: column; 
+   
+   align-items: center;
+   /* 水平居中 */
+   justify-content: center;
+   /* 视窗高度vh */
+   height: 100vh;
+   overflow: hidden;
+   margin: 0;
+  
+}
